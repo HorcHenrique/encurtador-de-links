@@ -2,7 +2,7 @@
 
 API REST que recebe uma URL, devolve um link curto e redireciona quem acessa esse link para o endereço original. Cada link pertence a um dono e guarda quantas vezes foi acessado.
 
-Feito em Java 21 com Spring Boot, para praticar API REST, JPA e organização em camadas (controller, service, repository).
+Projeto pessoal meu. Fiz em Java 21 com Spring Boot, para praticar API REST, JPA e organização em camadas (controller, service, repository).
 
 ## O que faz
 
@@ -97,6 +97,8 @@ src/main/java/com/example/demo
 ```
 
 ## O que falta
+
+Minha lista do que ainda quero fazer:
 
 - Autenticação. Hoje qualquer pessoa cria links para qualquer `ownerId`.
 - Registrar cada clique na tabela `click_events`. A tabela existe, mas por enquanto só o contador do link é atualizado.
